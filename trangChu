@@ -11,7 +11,7 @@ using namespace std;
 void menu(){
     int n;
     cout << "1.Quản lý nhân viên.\n"
-         << "2. Quản lý voucher.\n";
+         << "2.Quản lý voucher.\n";
     cin >> n;
     if(n==1){
         quan_ly();
